@@ -32,6 +32,9 @@ List of 4–6 intended pages (e.g., homepage, about, gallery, contact)
 
 Optional: brief notes on design/interaction (e.g., dark mode toggle)
     - Yes! Toggle dark / light mode switch at the top.
+
     - See my personal branding sheet: Mostly Use black, grey, and white, only use the greens for accents.https://docs.google.com/document/d/1GAd-uoyC1dVTSNNttLpRUNUok3Dip7spoaZ7-eZHEQc/edit?usp=sharing
+
     - If you can add cute pet-like designs, like paw prints for bullet notes, or something that would be awesome!
+    
     - Footnote with a place to email me, my linkedin, and my rover profile again maybe.
