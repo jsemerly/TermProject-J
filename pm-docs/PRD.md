@@ -1,6 +1,8 @@
-PRD (Product Requirements Document) - A concise document that includes:
+PRD (Product Requirements Document):
 
-Project title: Jacqueline Semerly’s Dog Sitting Services
+Project title: 
+<br>
+Jacqueline Semerly’s Dog Sitting Services
 
 One-sentence goal of the website: A professional, and trustworthy looking website to send clients to where they can view my services and contact me if they would like to book a dog sitting session, or meet me.
 
