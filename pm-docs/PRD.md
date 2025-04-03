@@ -7,6 +7,7 @@ One-sentence goal of the website: A professional, and trustworthy looking websit
 Description: One major way I gain clients is through word of mouth. I would like to make business cards with links to my website so clients can see my reviews, track record, professionalism, and services with transparency (this is as opposed to just handing my phone number out on the street and hoping they trusted our interaction enough to text me OR giving my rover profile, because Rover takes ¼ of my earnings. I’d like my own page now, I’ve been doing this for 5 years)
 
 3–5 core features (written as bullet points or user stories)
+
     1. Interactive / responsive Nav Bar using Hover effects
 
     2. A page they can submit a form that I will receive with their inquiry to book (on contact to book page)
@@ -18,6 +19,7 @@ Description: One major way I gain clients is through word of mouth. I would like
     5. Link to my Rover Profile if they would rather book through Rover. (maybe make a note that Rover takes 25% of my profit lol - but I like having this on here, because Rover runs background checks on sitters, so it adds an extra layer of reputability that they can trust me in their home with their pets. I can help write the verbage for this, I want to be very transparent.) https://www.rover.com/members/jacqueline-s-i-will-love-your-pet-like-my-own/?utm_medium=referral&utm_campaign=977262825&utm_content=ssp&utm_source=www.rover.com&
 
 List of 4–6 intended pages (e.g., homepage, about, gallery, contact)
+
     1. Homepage 
 
     2. Services
@@ -31,6 +33,7 @@ List of 4–6 intended pages (e.g., homepage, about, gallery, contact)
     6. Gallery
 
 Optional: brief notes on design/interaction (e.g., dark mode toggle)
+
     1. Yes! Toggle dark / light mode switch at the top.
 
     2. See my personal branding sheet: Mostly Use black, grey, and white, only use the greens for accents.https://docs.google.com/document/d/1GAd-uoyC1dVTSNNttLpRUNUok3Dip7spoaZ7-eZHEQc/edit?usp=sharing
