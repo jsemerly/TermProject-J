@@ -4,9 +4,13 @@ Project title:
 <br>
 Jacqueline Semerly’s Dog Sitting Services
 
-One-sentence goal of the website: A professional, and trustworthy looking website to send clients to where they can view my services and contact me if they would like to book a dog sitting session, or meet me.
+One-sentence goal of the website: 
+<br>
+A professional, and trustworthy looking website to send clients to where they can view my services and contact me if they would like to book a dog sitting session, or meet me.
 
-Description: One major way I gain clients is through word of mouth. I would like to make business cards with links to my website so clients can see my reviews, track record, professionalism, and services with transparency (this is as opposed to just handing my phone number out on the street and hoping they trusted our interaction enough to text me OR giving my rover profile, because Rover takes ¼ of my earnings. I’d like my own page now, I’ve been doing this for 5 years)
+Description: 
+<br>
+One major way I gain clients is through word of mouth. I would like to make business cards with links to my website so clients can see my reviews, track record, professionalism, and services with transparency (this is as opposed to just handing my phone number out on the street and hoping they trusted our interaction enough to text me OR giving my rover profile, because Rover takes ¼ of my earnings. I’d like my own page now, I’ve been doing this for 5 years)
 
 3–5 core features (written as bullet points or user stories)
 
@@ -34,7 +38,7 @@ List of 4–6 intended pages (e.g., homepage, about, gallery, contact)
     
     6. Gallery
 
-Optional: brief notes on design/interaction (e.g., dark mode toggle)
+Brief notes on design/interaction (e.g., dark mode toggle):
 
     1. Yes! Toggle dark / light mode switch at the top.
 
