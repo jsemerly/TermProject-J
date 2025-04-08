@@ -42,7 +42,7 @@ Brief notes on design/interaction (e.g., dark mode toggle):
 
     1. Yes! Toggle dark / light mode switch at the top.
 
-    2. See my personal branding sheet: Mostly Use black, grey, and white, only use the greens for accents.https://docs.google.com/document/d/1GAd-uoyC1dVTSNNttLpRUNUok3Dip7spoaZ7-eZHEQc/edit?usp=sharing
+    2. See my personal branding sheet: Mostly Use black, grey, and white, only use the greens for accents. !!!!! LINK HERE !!!!
 
     3. If you can add cute pet-like designs, like paw prints for bullet notes, or something that would be awesome!
 
