@@ -18,11 +18,11 @@ One major way I gain clients is through word of mouth. I would like to make busi
 
     2. A page they can submit a form that I will receive with their inquiry to book (on contact to book page)
 
-    3. List of services and costs: Use my Rover pricing (on Services page)
+    3. List of services and costs: Use my Rover pricing linked below(on Services page)
 
     4. A page that lists my current reviews (from rover), and allows others to post reviews for me. If we can implement a star / rating system too, that would be cool, even if it’s just a drop down with five options.
 
-    5. Link to my Rover Profile if they would rather book through Rover. (maybe make a note that Rover takes 25% of my profit lol - but I like having this on here, because Rover runs background checks on sitters, so it adds an extra layer of reputability that they can trust me in their home with their pets. I can help write the verbage for this, I want to be very transparent.) https://www.rover.com/members/jacqueline-s-i-will-love-your-pet-like-my-own/?utm_medium=referral&utm_campaign=977262825&utm_content=ssp&utm_source=www.rover.com&
+    5. Link to my Rover Profile if they would rather book through Rover. (maybe make a note that Rover takes 25% of my profit lol - but I like having this on here, because Rover runs background checks on sitters, so it adds an extra layer of reputability that they can trust me in their home with their pets. I can help write the verbage for this, I want to be very transparent.) Rover Profile Link: https://www.rover.com/members/jacqueline-s-i-will-love-your-pet-like-my-own/?utm_medium=referral&utm_campaign=977262825&utm_content=ssp&utm_source=www.rover.com&
 
 List of 4–6 intended pages (e.g., homepage, about, gallery, contact)
 
