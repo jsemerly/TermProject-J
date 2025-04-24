@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jacqueline Pet & Home Care</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #navbar {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 10px 0;
+      background-color: white;
+      border-bottom: 1px solid #ccc;
+    }
+
+    #navbar li {
+      border: 1px solid #223d3c;
+      list-style-type: none;
+    }
+
+    #navbar li a {
+      display: block;
+      color: #223d3c;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    #navbar li a:hover {
+      background-color: lightgreen;
+    }
+
+    /*got frustrated an used AI to create layout, will go back when I have more time*/
+    .content {
+      display: flex;
+      height: calc(100vh - 70px); /* Remaining space after navbar */
+    }
+
+    .left, .right {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      color: white;
+    }
+
+    .left {
+      background-color: #ffffff;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .right {
+      background-color: #223d3c;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .form {
+      background-color: white;
+      color: #223d3c;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 600px;
+      width: 90%;
+      margin-top: 20px;
+    }
+
+    .form input,
+    .form textarea {
+      width: 100%;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .form button {
+      padding: 10px 15px;
+      background-color: #223d3c;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <ul id="navbar">
+    <li><img src="images/Jacquelinelogo.PNG" height="43px" alt="Jacquelinelogo" /></li>
+    <li><a href="projectv1homepage.html">HOME</a></li>
+    <li><a href="projectv1services.html">SERVICES</a></li>
+    <li><a href="projectv1about.html">ABOUT JACQUELINE</a></li>
+    <li><a href="projectv1book.html">CONTACT & BOOK</a></li>
+    <li><a href="projectv1reviews.html">REVIEWS</a></li>
+    <li><a href="projectv1gallery.html">GALLERY</a></li>
+  </ul>
+
+  <div class="content">
+    <div class="left">
+      image of dog
+    </div>
+
+    <div class="right">
+      <h1>BOOK WITH JACQUELINE</h1>
+      <p>Contact Jacqueline below with any booking inquiries:</p>
+      <div class="form">
+        <h1>Contact Me!</h1>
+        <form method="POST" action="#">
+          <fieldset>
+            <legend>Contact Information</legend>
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" placeholder="First Name" />
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="Last Name" placeholder="Last Name" />
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="Email" placeholder="Email address" />
+
+            <label for="numdogs">Number of Dogs:</label>
+            <input type="text" id="numdogs" name="numdogs" placeholder="Number of Dogs" />
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="comments" rows="3" placeholder="Enter your message here..."></textarea>
+          </fieldset>
+          <button type="submit">
+            SUBMIT <img src="images/mailbox.PNG" height="20" alt="submit button" />
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

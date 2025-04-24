@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reviews - Simple Version</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #183a37;
+      color: white;
+    }
+
+    /* Navbar */
+    #navbar {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 10px 0;
+      background-color: white;
+      border-bottom: 1px solid #ccc;
+    }
+
+    #navbar li {
+      list-style-type: none;
+      border: 1px solid #223d3c;
+    }
+
+    #navbar li a {
+      text-decoration: none;
+      padding: 10px 14px;
+      color: #223d3c;
+      display: block;
+    }
+
+    #navbar li a:hover {
+      background-color: lightgreen;
+    }
+
+    /* Reviews Section */
+    .reviews {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .reviews h2 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .stars {
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+
+    .review-button {
+      background-color: #a5b79a;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-bottom: 30px;
+    }
+
+    .review-cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      background-color: #2d4a45;
+      padding: 20px;
+      border-radius: 10px;
+      width: 280px;
+      text-align: left;
+    }
+
+    .card h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #f2f2f2;
+      color: #223d3c;
+      padding: 20px;
+      text-align: center;
+    }
+
+    footer a {
+      color: #223d3c;
+      text-decoration: none;
+      display: block;
+      margin: 4px 0;
+    }
+
+    .social-icons img {
+      height: 20px;
+      margin: 0 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <ul id="navbar">
+    <li><img src="images/Jacquelinelogo.PNG" height="43px" alt="Jacquelinelogo"></li>
+    <li><a href="#">HOME</a></li>
+    <li><a href="#">SERVICES</a></li>
+    <li><a href="#">ABOUT</a></li>
+    <li><a href="#">CONTACT</a></li>
+    <li><a href="#">REVIEWS</a></li>
+    <li><a href="#">GALLERY</a></li>
+  </ul>
+
+  <section class="reviews">
+    <h2>REVIEWS</h2>
+    <div class="stars">★★★★★</div>
+    <button class="review-button">CLICK HERE TO LEAVE A REVIEW</button>
+
+    <div class="review-cards">
+      <div class="card">
+        <h3>Client First Name</h3>
+        <p>Review Date</p>
+        <p>Review text here. Review text here. Review text here. Review text here. Review text here. Review text here. Review text here. Review text here. Review text here. Review text here. Review text here. Review text here...</p>
+      </div>
+
+      <div class="card">
+        <h3>Sandra A.</h3>
+        <p>Oct 08, 2022</p>
+        <p> had Jacqueline watch my yorkie and cat last week for the first time. She was WONDERFUL. My animals are on meds and my yorkie very nervous. J was wonderful. She got him to eat and gave meds. It took a little bit of time...</p>
+      </div>
+
+      <div class="card">
+        <h3>Rebecca L.</h3>
+        <p>Sep 24, 2022</p>
+        <p>“Excellent!” — Jacqueline was excellent! Will be happy to book her again.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="contact-info">
+      <h3>Jacqueline Semerly 🐾</h3>
+      <a href="mailto:jacqueline.semerly@gmail.com">✉️ jacqueline.semerly@gmail.com</a>
+      <a href="tel:5178038063">📞 517-803-8063</a>
+    </div>
+    <div class="social-icons">
+      <a href="#"><img src="paw-icon.png" alt="Paw Icon" /></a>
+      <a href="#"><img src="r-icon.png" alt="R Icon" /></a>
+      <a href="#"><img src="linkedin-icon.png" alt="LinkedIn Icon" /></a>
+      <a href="#"><img src="web-icon.png" alt="Website Icon" /></a>
+    </div>
+    <p>© 2025 Jacqueline. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
