@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>In-House Sitting</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body,
+    html {
+      height: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #223d3c;
+      color: white;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    body.light-mode {
+      background-color: #ffffff;
+      color: black;
+    }
+
+    #navbar {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      background-color: white;
+      border-bottom: 1px solid #ccc;
+    }
+
+    #navbar li {
+      list-style-type: none;
+      border: 1px solid #223d3c;
+    }
+
+    #navbar li a {
+      display: block;
+      color: #223d3c;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    #navbar li a:hover {
+      background-color: lightgreen;
+    }
+
+    .toggle-button {
+      text-align: center;
+      padding: 10px;
+    }
+
+    .toggle-button button {
+      background-color: lightgreen;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .section {
+      text-align: center;
+      padding: 40px 20px 20px;
+    }
+
+    .section h1 {
+      font-size: 40px;
+      margin-bottom: 30px;
+    }
+
+    .image-container {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 0;
+    }
+
+    .image-container img {
+      width: 80%;
+      max-width: 700px;
+      height: auto;
+    }
+
+    .text-box {
+      background-color: #f8f4f4;
+      color: #000;
+      padding: 30px;
+      margin: 0 auto;
+      width: 80%;
+      max-width: 700px;
+      font-size: 18px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    body.light-mode .text-box {
+      background-color: #e0e0e0;
+      color: #000;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #f2f2f2;
+      padding: 20px;
+      transition: background-color 0.3s;
+    }
+
+    body.light-mode footer {
+      background-color: #e6e6e6;
+    }
+
+    footer a {
+      color: #223d3c;
+      text-decoration: none;
+      display: block;
+      margin: 5px 0;
+    }
+
+    .social-icons img {
+      height: 24px;
+      margin: 0 5px;
+    }
+
+    .contact-info h2 {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="toggle-button">
+    <button onclick="document.body.classList.toggle('light-mode')">
+      Toggle Light/Dark Mode
+    </button>
+  </div>
+
+  <ul id="navbar">
+    <li><img src="images/Jacquelinelogo.PNG" height="43px" alt="Jacquelinelogo" /></li>
+    <li><a href="projectfinalhomepage.html">HOME</a></li>
+    <li><a href="projectfinalservices.html">SERVICES</a></li>
+    <li><a href="projectfinalabout.html">ABOUT JACQUELINE</a></li>
+    <li><a href="projectfinalbook.html">CONTACT & BOOK</a></li>
+    <li><a href="projectfinalreviews.html">REVIEWS</a></li>
+    <li><a href="projectfinalgallery.html">GALLERY</a></li>
+  </ul>
+
+  <div class="section">
+    <h1>IN-HOUSE SITTING</h1>
+    <div class="image-container">
+      <img src="images/dog-house.jpg" alt="Dog and house" />
+    </div>
+    <div class="text-box">
+      <p><u>House Sitting (in your home):</u> $75 per night</p>
+      <p><u>Additional Dog Rate:</u> + $50 per dog per night</p>
+      <p><u>Cat Care:</u> $50 per night</p>
+      <p><u>Additional Cat:</u> + $25 per cat per night</p>
+    </div>
+  </div>
+
+  <footer>
+    <div class="contact-info">
+      <h2>Jacqueline Semerly 🐾</h2>
+      <a href="mailto:jacqueline.semerly@gmail.com">✉️ jacqueline.semerly@gmail.com</a>
+      <a href="tel:5178038063">📞 517-803-8063</a>
+    </div>
+    <div class="social-icons">
+      <a href="#"><img src="paw-icon.png" alt="Paw Icon" /></a>
+      <a href="#"><img src="r-icon.png" alt="R Icon" /></a>
+      <a href="#"><img src="linkedin-icon.png" alt="LinkedIn Icon" /></a>
+      <a href="#"><img src="web-icon.png" alt="Website Icon" /></a>
+    </div>
+    <div class="rights">
+      <p>© 2025 Jacqueline. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

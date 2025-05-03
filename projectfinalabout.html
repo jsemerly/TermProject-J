@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jacqueline Pet & Home Care</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body, html {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #223d3c;
+      color: white;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    body.light-mode {
+      background-color: #ffffff;
+      color: #223d3c;
+    }
+
+    #navbar {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      background-color: white;
+      padding: 10px 0;
+      border-bottom: 1px solid #ccc;
+    }
+
+    #navbar li {
+      list-style-type: none;
+      border: 1px solid #223d3c;
+    }
+
+    #navbar li a {
+      display: block;
+      color: #223d3c;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    #navbar li a:hover {
+      background-color: lightgreen;
+    }
+
+    .toggle-mode {
+      margin: 15px auto;
+      text-align: center;
+    }
+
+    .toggle-mode button {
+      padding: 10px 20px;
+      border: none;
+      background-color: lightgreen;
+      color: black;
+      font-weight: bold;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    .container {
+      display: flex;
+      height: auto;
+      flex-wrap: wrap;
+    }
+
+    .left {
+      flex: 2;
+      background-color: #223d3c;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+
+    .right {
+      flex: 1;
+      background-color: #223d3c;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .heading {
+      font-size: 50px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .subheading {
+      font-size: 25px;
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+
+    .text {
+      font-size: 15px;
+      margin-bottom: 20px;
+      line-height: 1.6;
+      max-width: 90%;
+    }
+
+    #aboutcontent {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      max-width: 80%;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+
+    footer a {
+      color: #223d3c;
+      text-decoration: none;
+      display: block;
+      margin: 5px 0;
+    }
+
+    .social-icons img {
+      height: 24px;
+      margin: 0 5px;
+    }
+
+    .contact-info h2 {
+      margin-bottom: 10px;
+    }
+
+    .rights {
+      margin-top: 10px;
+    }
+
+    body.light-mode .left,
+    body.light-mode .right {
+      background-color: #ffffff;
+    }
+
+    body.light-mode .heading,
+    body.light-mode .subheading,
+    body.light-mode .text {
+      color: #223d3c;
+    }
+  </style>
+</head>
+<body>
+
+  <ul id="navbar">
+    <li><img src="images/Jacquelinelogo.PNG" height="43px" alt="Jacquelinelogo"></li>
+    <li><a href="projectfinalhomepage.html">HOME</a></li>
+    <li><a href="projectfinalservices.html">SERVICES</a></li>
+    <li><a href="projectfinalabout.html">ABOUT JACQUELINE</a></li>
+    <li><a href="projectfinalbook.html">CONTACT & BOOK</a></li>
+    <li><a href="projectfinalreviews.html">REVIEWS</a></li>
+    <li><a href="projectfinalgallery.html">GALLERY</a></li>
+  </ul>
+
+  <div class="toggle-mode">
+    <button onclick="toggleTheme()">Toggle Light/Dark Mode</button>
+  </div>
+
+  <div class="container">
+    <div class="left">
+      <div id="aboutcontent">
+        <h1 class="heading">ABOUT JACQUELINE</h1>
+        <h2 class="subheading">BACKGROUND</h2>
+        <p class="text">
+          Hi, I am Jacqueline “J” Semerly. I am a Babson College graduate who will love your dog like my own.
+          My passion for dogs and animals infiltrates the most important aspects of my life.
+          My demeanor is calm and collected and I understand “dog language” to a great extent.
+          I always tell my clients, if you forget to tell me something, your dog definitely will! ... more to come
+        </p>
+        <h3 class="subheading">PET CARE EXPERIENCE</h3>
+        <p class="text">
+          ...I know all animals have their quirks and I will adapt to each and every need.
+          I have cared for pups that are just 4 lbs and all the way up to 130 lbs:
+          I understand the differences amongst breeds and sizes and cater to their species nuances...more to come
+        </p>
+        <h4 class="subheading">SKILLS</h4>
+        <p class="text">Attentive, Flexible, Experienced, Compassionate</p>
+        <h5 class="subheading">MY REASON WHY</h5>
+        <p class="text">Because every animal deserves love, care, and trust when their humans are away.</p>
+      </div>
+    </div>
+    <div class="right">
+      <img src="images/jacqueline-dog.jpg" alt="Jacqueline with dog" style="max-width: 90%; border-radius: 10px;">
+    </div>
+  </div>
+
+  <footer>
+    <div class="contact-info">
+      <h2>Jacqueline Semerly 🐾</h2>
+      <a href="mailto:jacqueline.semerly@gmail.com">✉️ jacqueline.semerly@gmail.com</a>
+      <a href="tel:5178038063">📞 517-803-8063</a>
+    </div>
+    <div class="social-icons">
+      <a href="#"><img src="paw-icon.png" alt="Paw Icon" /></a>
+      <a href="#"><img src="r-icon.png" alt="R Icon" /></a>
+      <a href="#"><img src="linkedin-icon.png" alt="LinkedIn Icon" /></a>
+      <a href="#"><img src="web-icon.png" alt="Website Icon" /></a>
+    </div>
+    <div class="rights">
+      <p>© 2025 Jacqueline. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    function toggleTheme() {
+      document.body.classList.toggle("light-mode");
+    }
+  </script>
+</body>
+</html>
+

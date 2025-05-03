@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jacqueline Pet & Home Care</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #000;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    body.dark-mode {
+      background-color: #223d3c;
+      color: white;
+    }
+
+    .container {
+      display: flex;
+      height: 100vh;
+    }
+
+    .main-content {
+      flex: 2;
+      padding: 20px;
+      background-color: #fff;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      position: relative;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    body.dark-mode .main-content {
+      background-color: #2e4e4b;
+      color: white;
+    }
+
+    .logo {
+      text-align: center;
+    }
+
+    .logo img {
+      width: 80px;
+    }
+
+    .image img {
+      width: 100%;
+      border-radius: 20px;
+    }
+
+    .sidebar {
+      flex: 1;
+      background-color: #223d3c;
+      color: white;
+      padding: 20px;
+      transition: background-color 0.3s;
+    }
+
+    body.dark-mode .sidebar {
+      background-color: #1a2f2d;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .sidebar li {
+      margin: 20px 0;
+    }
+
+    .sidebar a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    .sidebar a:hover {
+      text-decoration: underline;
+    }
+
+    .toggle-button {
+      text-align: center;
+      margin: 15px 0;
+    }
+
+    .toggle-button button {
+      padding: 10px 20px;
+      background-color: lightgreen;
+      border: none;
+      border-radius: 20px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+
+    footer a {
+      color: #223d3c;
+      text-decoration: none;
+      display: block;
+      margin: 5px 0;
+    }
+
+    .social-icons img {
+      height: 24px;
+      margin: 0 5px;
+    }
+
+    .contact-info h2 {
+      margin-bottom: 10px;
+    }
+
+    body.dark-mode footer {
+      background-color: #1f1f1f;
+      color: white;
+    }
+
+    body.dark-mode footer a {
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="toggle-button">
+    <button onclick="document.body.classList.toggle('dark-mode')">
+      Toggle Light/Dark Mode
+    </button>
+  </div>
+
+  <div class="container">
+    <div class="main-content">
+      <div class="logo">
+        <img src="images/Jacquelinelogo.PNG" alt="Jacqueline Logo" />
+        <h1>JACQUELINE</h1>
+        <p>PET & HOME CARE</p>
+      </div>
+      <div class="image">
+        <img src="dogs.jpg" alt="Dogs playing" />
+      </div>
+    </div>
+    <ul class="sidebar">
+      <li><a href="projectfinalhomepage.html">HOME</a></li>
+      <li><a href="projectfinalservices.html">SERVICES</a></li>
+      <li><a href="projectfinalabout.html">ABOUT JACQUELINE</a></li>
+      <li><a href="projectfinalbook.html">CONTACT & BOOK</a></li>
+      <li><a href="projectfinalreviews.html">REVIEWS</a></li>
+      <li><a href="projectfinalgallery.html">GALLERY</a></li>
+    </ul>
+  </div>
+
+  <footer>
+    <div class="contact-info">
+      <h2>Jacqueline Semerly 🐾</h2>
+      <a href="mailto:jacqueline.semerly@gmail.com">✉️ jacqueline.semerly@gmail.com</a>
+      <a href="tel:5178038063">📞 517-803-8063</a>
+    </div>
+    <div class="social-icons">
+      <a href="#"><img src="paw-icon.png" alt="Paw Icon" /></a>
+      <a href="#"><img src="r-icon.png" alt="R Icon" /></a>
+      <a href="#"><img src="linkedin-icon.png" alt="LinkedIn Icon" /></a>
+      <a href="#"><img src="web-icon.png" alt="Website Icon" /></a>
+    </div>
+    <div class="rights">
+      <p>© 2025 Jacqueline. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
+

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3 Column Flex Layout</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html,
+    body {
+      height: 100%;
+      font-family: Arial, sans-serif;
+      background-color: #223d3c;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    body.light-mode {
+      background-color: #ffffff;
+      color: #223d3c;
+    }
+
+    #navbar {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 10px 0;
+      background-color: white;
+    }
+
+    #navbar li {
+      border: 1px solid #223d3c;
+      list-style-type: none;
+    }
+
+    #navbar li a {
+      display: block;
+      color: #223d3c;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    #navbar li a:hover {
+      background-color: lightgreen;
+    }
+
+    .toggle-mode {
+      text-align: center;
+      margin: 15px 0;
+    }
+
+    .toggle-mode button {
+      padding: 10px 20px;
+      background-color: lightgreen;
+      border: none;
+      border-radius: 20px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .main {
+      flex: 1;
+      display: flex;
+      padding: 10px;
+    }
+
+    .column {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 10px;
+    }
+
+    .left,
+    .middle,
+    .right {
+      background-color: inherit;
+    }
+
+    .box {
+      background-color: white;
+      border: 1px solid #ccc;
+      padding: 20px;
+      text-align: center;
+      flex: 1;
+      color: #223d3c;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    body.light-mode .box {
+      background-color: #223d3c;
+      color: white;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+
+    footer a {
+      color: #223d3c;
+      text-decoration: none;
+      display: block;
+      margin: 5px 0;
+    }
+
+    .social-icons img {
+      height: 24px;
+      margin: 0 5px;
+    }
+
+    .contact-info h2 {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <ul id="navbar">
+    <li><img src="images/Jacquelinelogo.PNG" height="43px" alt="Jacquelinelogo" /></li>
+    <li><a href="projectfinalhomepage.html">HOME</a></li>
+    <li><a href="projectfinalservices.html">SERVICES</a></li>
+    <li><a href="projectfinalabout.html">ABOUT JACQUELINE</a></li>
+    <li><a href="projectfinalbook.html">CONTACT & BOOK</a></li>
+    <li><a href="projectfinalreviews.html">REVIEWS</a></li>
+    <li><a href="projectfinalgallery.html">GALLERY</a></li>
+  </ul>
+
+  <div class="toggle-mode">
+    <button onclick="document.body.classList.toggle('light-mode')">Toggle Light/Dark Mode</button>
+  </div>
+
+  <div class="main">
+    <div class="column left">
+      <div class="box">Image 1</div>
+      <div class="box">Image 2</div>
+      <div class="box">Image 3</div>
+    </div>
+    <div class="column middle">
+      <div class="box">Image 5</div>
+      <div class="box">Image 6</div>
+    </div>
+    <div class="column right">
+      <div class="box">Image 7</div>
+      <div class="box">Image 8</div>
+      <div class="box">Image 9</div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="contact-info">
+      <h2>Jacqueline Semerly 🐾</h2>
+      <a href="mailto:jacqueline.semerly@gmail.com">✉️ jacqueline.semerly@gmail.com</a>
+      <a href="tel:5178038063">📞 517-803-8063</a>
+    </div>
+    <div class="social-icons">
+      <a href="#"><img src="paw-icon.png" alt="Paw Icon" /></a>
+      <a href="#"><img src="r-icon.png" alt="R Icon" /></a>
+      <a href="#"><img src="linkedin-icon.png" alt="LinkedIn Icon" /></a>
+      <a href="#"><img src="web-icon.png" alt="Website Icon" /></a>
+    </div>
+    <div class="rights">
+      <p>© 2025 Jacqueline. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
